@@ -45,3 +45,43 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# --------------- My ignore --------------------
+
+# Ignore everything
+*
+# even if they are in subdirectories
+!*/
+
+# But not these files and directories
+!.gitignore
+!codeforces.com/*
+!OCOM_IPST/TASK/*
+!OCOM_IPST/SOLUTION/*
+!otog.org/otog_old/*
+!otog.org/OTOG_script/*
+!otog.org/SOLUTION/*
+!otog.org/TASK/*
+!otog.org/list_task_otog.xlsx
+!programing.in.th/*
+!Theory/*
+!timus.ru/*
+!TOI/TOI2/TASK/*
+!TOI/TOI2/SOLUTION/*
+!TOI/TOI5/TASK/*
+!TOI/TOI5/SOLUTION/*
+!TOI/TOI6/TASK/*
+!TOI/TOI6/SOLUTION/*
+!TOI/TOI7/TASK/*
+!TOI/TOI7/SOLUTION/*
+!TOI/TOI8/TASK/*
+!TOI/TOI8/SOLUTION/*
+!TOI/TOI9/TASK/*
+!TOI/TOI9/SOLUTION/*
+!TOI/TOI10/TASK/*
+!TOI/TOI10/SOLUTION/*
+!TOI/TOI11/TASK/*
+!TOI/TOI11/SOLUTION/*
+!TOI/TOI12/TASK/*
+!TOI/TOI12/SOLUTION/*
+!z-training.com/*

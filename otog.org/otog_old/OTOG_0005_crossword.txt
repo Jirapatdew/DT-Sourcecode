@@ -1,0 +1,34 @@
+4 4
+#.##
+....
+#.##
+#.##
+6
+spam
+euro
+trip
+arch
+hula
+crab
+
+3 5
+###.#
+###.#
+.....
+6
+apron
+blow
+catamaran
+two
+who
+zebra
+
+3 4
+.###
+....
+.###
+4
+one
+two
+three
+four

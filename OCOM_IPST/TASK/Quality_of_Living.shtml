@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <title>IOI 2010 - Day 1 Task 3 Quality of Living </title>
+                <link rel="stylesheet" type="text/css" href="../../css/styleMain.css" />
+                <link rel="stylesheet" type="text/css" href="../../css/fontStyles.css" />
+                <script language="javascript" src="/js/common.js"></script>
+        </head>
+        <body>
+                <!-- in the end, encapsulate code with following for gradient
+                <div id="bodyBg">encapsulate</div>
+
+                -->
+                <div class="main">
+                  <div class="top1"></div>
+<div class="top2"></div>
+                    <div class="bg">
+                    <div class="leftSpacing1"></div>
+                <div class="wrapNav">
+                
+<div id="navbar" class="navmenu">
+<ul class="mainmenu">
+  <li id="menu_home" rel="submenu_home" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/index.shtml" >Home</a></li>
+  <!--<ul class="submenu" id="submenu_home">-->
+  <!--</ul >-->
+  <li id="menu_aboutioi" rel="submenu_aboutioi" onmouseover="javascript: sub_display(this);"><a class="hassub" href="http://ioi2010.org/aboutIOI.shtml">About IOI</a></li>
+  <ul class="submenu" id="submenu_aboutioi" >
+    <li><a href="http://ioi2010.org/regulations.shtml">Regulations</a></li>
+    <li><a href="http://ioi2010.org/committees.shtml">Committees</a></li>
+  </ul>
+  
+  <li id="menu_home" rel="submenu_photos" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/photos-new.shtml">Photos</a></li>
+  <!--<ul class="submenu" id="submenu_sponsors">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_sponsors" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/sponsors.shtml">Sponsors</a></li>
+  <!--<ul class="submenu" id="submenu_sponsors">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_aboutcanada" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/aboutCanada.shtml">About Canada</a></li>
+  <!--<ul class="submenu" id="submenu_aboutcanada">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_generalinfo" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/generalInfo.shtml">General Info</a></li>
+  <!--<ul class="submenu" id="submenu_generalinfo">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_volunteerinfo" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/volunteerInfo.shtml">Volunteer Info</a></li>
+  <!--<ul class="submenu" id="submenu_volunteerinfo">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_registration" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="#">Registration</a></li>
+  <!--<ul class="submenu" id="submenu_registration">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_participants" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/participants.shtml">Participants</a></li>
+  <!--<ul class="submenu" id="submenu_participants">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_schedule" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/schedule.shtml">Schedule</a></li>
+  <!--<ul class="submenu" id="submenu_schedule">-->
+  <!--</ul >-->
+  <li id="menu_home" rel="submenu_competition" onmouseover="javascript: sub_display(this);"><a class="hassub" href="http://ioi2010.org/competition.shtml">Competition</a></li>
+  <ul class="submenu" id="submenu_competition" >
+    <li><a href="http://ioi2010.org/FinalResults.shtml">Final Results</a></li>
+    <li><a href="http://ioi2010.org/CompetitionTask.shtml">Competition Tasks</a></li>
+    <li><a href="http://ioi2010.org/Tasks/Translations.shtml">Translated Competition Tasks</a></li>
+    <li><a href="http://ioi2010.org/scoreboard1/scoreboard.html">Day1 Scoreboard</a></li>
+    <li><a href="http://ioi2010.org/scoreboard2/scoreboard.html">Day2 Scoreboard</a></li>
+    <li><a href="http://ioi2010.org/scoreboard/scoreboard.html">Aggregate Scoreboard</a></li>
+    <li><a href="http://ioi2010.org/CallForTasks.shtml">Call for Tasks</a></li>
+    <li><a href="http://ioi2010.org/SampleTask.shtml">Sample Tasks</a></li>
+    <li><a href="http://ioi2010.org/Environment.shtml">Environment</a></li>
+    <li><a href="http://ioi2010.org/rules.shtml">Rules</a></li>
+    <li><a href="../generaltaskinfo.shtml">Tasks: General Info</a></li>
+    <li><a href="https://sharepoint.uwaterloo.ca/sites/ioi2010/default.aspx">Translation System</a></li>
+    <li><a href="../playalongversions.shtml">Play Along Versions</a></li>
+  </ul>
+  <li id="menu_home" rel="submenu_IOIConference" onmouseover="javascript: sub_display(this);"><a class="hassub" href="http://ioi2010.org/IOIconference.shtml">IOI Conference</a></li>
+  <ul class="submenu" id="submenu_IOIConference" >
+    <li><a href="../conferenceschedule.shtml">Conference Schedule</a></li>
+    <li><a href="http://ioi2010.org/paperpresentation.shtml">Papers/Presentation</a></li>
+  </ul>
+  <li id="menu_home" rel="submenu_media" onmouseover="javascript: sub_display(this);"><a class="hassub" href="http://ioi2010.org/media.shtml">Media</a></li>
+  <ul class="submenu" id="submenu_media" >
+    <li><a href="http://ioi2010.org/IOI2010logo.shtml">Logo</a></li>
+    <li><a href="http://ioi2010.org/newsletters.shtml">Newsletters</a></li>
+    <li><a href="../IOIForms/IOIProgram.pdf">IOI Program</a></li>
+    <!--<li><a href="http://ioi2010.org/photos-new.shtml">Photos</a></li> -->
+    <li><a href="http://ioi2010.org/news_releases.shtml">Media/News Release Summary</a></li>
+  </ul>
+  <li id="menu_home" rel="submenu_contactus" onmouseover="javascript: sub_display(this);"><a class="nothassub" href="http://ioi2010.org/contactUs.shtml">Contact Us</a></li>
+  <!--<ul class="submenu" id="submenu_contactus">-->
+  <!--</ul >-->
+</ul>
+</div>
+<script type="text/javascript" language="javascript">
+        openMe();
+</script>
+
+
+                <!--  begin updates-->
+                <!-- please use only short name of monthe -->
+<div class="updates"></div>
+<div class="updates_body">
+  <div class="textMarginUpdate textUpdates">
+  <div class="textUpdatesDate">November 25, 2010</div>
+    <br />
+    <a href="../photos-new.shtml">IOI Photos have been posted</a><br />
+    <br />
+  <div class="textUpdatesDate">August 15, 2010</div>
+    <br />
+    <a href="../images/newsletters/97381_Day1.pdf">Posted first Newsletter</a><br />
+    <br />
+  <div class="textUpdatesDate">July 29, 2010</div>
+    <br />
+    <a href="../IOIForms/IOIProgram.pdf">IOI Program</a><br />
+    <br />
+  <div class="textUpdatesDate">July 29, 2010</div>
+    <br />
+    Schedule updated including information about new <a href="../IOIForms/IOIEveningLectures.pdf">Evening Lectures</a>.<br />
+    <br />
+  <div class="textUpdatesDate">July 5, 2010</div>
+    <br />
+    Rules, competition environment and sample tasks added to site.<br />
+    <br />
+  <div class="textUpdatesDate">May 27, 2010</div>
+    <br />
+    Registration activated and many ioi2010.org web updates.<br />
+    <br />
+    <div class="textUpdatesDate"></div>
+    </div>
+  <div class="textMarginUpdateBottom"></div>
+  <!--spacer-->
+</div>
+<!--updates_body end-->
+<div class="bottomMenu2">
+  <div class="textUpdates moreNews bold">
+    <div><a href="../updates/oldnews.shtml">More News</a></div>
+    <div class="arrowButton"></div>
+  </div>
+</div>
+                <!-- end updates-->
+                </div>
+                <!--wrapNav end-->
+                <div class="wrapContent">
+                <div class="leftSpacing2"></div>
+                <div class="mainContent">
+                <div class="titleBar">IOI 2010 Tasks</div>
+                                                                                                                                    <div class="mainContent textMargin">
+
+
+</head>
+
+<body>
+<img align="right" src="CatfishCoffeeStreetSigns.jpg" height="300">
+<h1>Day 1 Task 3: Quality of Living</h1>
+Cities in Alberta tend to be laid out as rectangular grids of blocks.
+Blocks are
+labeled with coordinates 0 to <b>R</b>-1 from north to south and 0 to <b>C</b>-1 from 
+west to east.
+<p>
+The quality of living in each particular block has been ranked
+by a distinct number, called <em>quality rank</em>,
+between 1 and <b>R</b>*<b>C</b>, where 1 is the best and <b>R</b>*<b>C</b>
+is the worst.
+<p>
+The city planning department wishes to identify a rectangular  
+set of blocks with dimensions <b>H</b> from north to south
+and <b>W</b> from west to east, such that the median 
+quality rank among all blocks in the rectangle is
+the best.  
+<b>H</b> and <b>W</b> are <em>odd</em> numbers not exceeding
+<b>R</b> and <b>C</b> respectively.
+The <em>median quality rank</em>
+among an odd number of quality ranks is defined to be
+the quality rank <b>m</b> in the set such that
+the number of quality ranks better than <b>m</b> equals
+the number of quality ranks worse than <b>m</b>.
+<p>
+You are to implement a procedure <b>rectangle(R,C,H,W,Q)</b>
+where <b>R</b> and <b>C</b> represent the total size of the
+city, <b>H</b> and <b>W</b> represent the dimensions of
+the set of blocks, and <b>Q</b> is an
+array such that <b>Q[a][b]</b> is the quality rank
+for the block labeled <b>a</b> from north to south and
+<b>b</b> from west to east.
+<p>
+Your implementation of <b>rectangle</b> must return a number:
+the best (numerically smallest) possible median quality rank of
+an <b>H</b> by <b>W</b> rectangle of blocks.
+<p>
+Each test run will only call <b>rectangle</b> once.
+<h3>Example 1</h3>
+<pre>
+<b>R</b>=5, <b>C</b>=5, <b>H</b>=3, <b>W</b>=3, 
+<b>Q</b>=  5 11 12 16 25
+   17 18 <b> 2  7 10</b>
+    4 23 <b>20  3  1</b>
+   24 21 <b>19 14  <i>9</i></b>
+    6 22  8 13 15
+</pre>
+For this example,
+the best (numerically smallest) median quality rank of 9 is achieved
+by the middle-right rectangle of <b>Q</b> shown in bold.
+That is,
+<pre>
+<b>rectangle(R,C,H,W,Q)</b>=9
+</pre>
+<h3>Example 2</h3>
+<pre>
+<b>R</b>=2, <b>C</b>=6, <b>H</b>=1, <b>W</b>=5, 
+<b>Q</b>=  6  1  2 11  7  5
+    9  3  4 10 12  8
+</pre>
+For this example the correct answer is 5.
+
+<h3>Subtask 1 [20 points]</h3>
+Assume R and C do not exceed 30.
+<h3>Subtask 2 [20 points]</h3>
+Assume R and C do not exceed 100.
+<h3>Subtask 3 [20 points]</h3>
+Assume R and C do not exceed 300.
+<h3>Subtask 4 [20 points]</h3>
+Assume R and C do not exceed 1&thinsp;000.
+<h3>Subtask 5 [20 points]</h3>
+Assume R and C do not exceed 3&thinsp;000.
+
+<h3>Implementation Details</h3>
+<ul>
+<li>Use the <a href="http://www.ioi2010.org/environment/runc.shtml">RunC programming and test environment</a>
+<li>Implementation folder: <tt>/home/ioi2010-contestant/quality/</tt> (prototype: <a href="quality.zip">quality.zip</a>)
+<li>To be implemented by contestant: <tt>quality.c</tt> or <tt>quality.cpp</tt> or <tt>quality.pas</tt>
+<li>Contestant interface: <tt>quality.h</tt> or <tt>quality.pas</tt>
+<li>Grader interface: <i>none</i>
+<li>Sample grader: <tt>grader.c</tt> or <tt>grader.cpp</tt> or <tt>grader.pas</tt>
+<li>Sample grader input:  <tt>grader.in.1</tt> <tt>grader.in.2</tt> etc. <br><i>Note: The first line of input contains: R,C,H,W 
+The following lines contain the elements of Q, in row-major order.</i>
+<li>Expected output for sample grader input: <tt>grader.expect.1</tt> <tt>grader.expect.2</tt> etc.
+<li>Compile and run (command line): <tt>runc grader.c</tt> or <tt>runc grader.cpp</tt> or <tt>runc grader.pas</tt>
+<li>Compile and run (gedit plugin):  <i>Control-R</i>, while editing any implementation file.
+<li>Submit (command line):  <tt>submit grader.c</tt> or <tt>submit grader.cpp</tt> or <tt>submit grader.pas</tt>
+<li>Submit (gedit plugin):  <i>Control-J</i>, while editing any implementation or grader file.
+</ul>
+ </div>
+       </div>
+             <!-- mainContent end-->
+                 </div>
+                     <!--wrapContent end-->
+                       </div>
+                         <!--bg end-->
+                         <div class="bg whiteSpaceBottom"></div>
+<div class="bottom1"></div>
+<div class="bottom2"><a href="http://www.uwaterloo.ca" target="_blank"><div class="UW_link"></div></a><a href="http://www.rim.com" target="_blank"> <div class="RIM_link"></div></a></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7146202-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+                 </div>
+                 <!--main end-->
+         </body>
+ </html>
+
+

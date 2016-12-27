@@ -1,0 +1,173 @@
+<!--DEFINE ZADANIE "River Crossing"-->
+<!--DEFINE KONKURS "CEOI 97 - Nowy Sącz"-->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<title>
+River Crossing
+</title>
+</head>
+
+<body  bgcolor="#ffffff">
+
+<font size="-1">
+<P align=left>
+[ &nbsp;
+<a href="../../index.htm">Strona główna</a>
+&nbsp; | &nbsp;
+<a href="../oi.htm">Archiwum zadań</a>
+&nbsp; ]
+</P>
+</font>
+
+<center>
+<h1>CEOI 97 - Nowy Sącz</h1>
+</center>
+
+<br>
+
+<hr>
+
+<font size="+3" face="arial ce, arial, helvetica">Problem: River Crossing</font><br>
+
+<hr>
+
+
+<p>
+
+Citizens of Byteland adore all sports in which logical thinking
+is as important as physical skills. One of these sports is crossing
+the Hex River - the widest river in Byteland. There are n poles
+numbered 1…n (from left to right) stretching across the river. The
+citizens  have to cross the river by going from the left bank to one
+pole perhaps to another and so on and then to the right bank.
+The left bank is located one pole to the left of pole 1; the right
+bank is located one pole to the right of pole n.
+</p>
+
+<p>
+At time 0, the citizen is on the left bank of the Hex River with
+the goal of reaching the right bank of the river as quickly as
+possible. At any given time, each pole is either up or down and
+the citizen is standing 
+on a pole or standing on a bank of the river. A citizen can stand
+on a pole only if it is up; such a pole is available.
+</p>
+
+<p>
+Each pole is down at time 0 and then spends a time units up, b time
+units down, a time units up, b time units down, etc.  The constants
+a and b are defined separately for each pole. For example the pole
+with a=2 and b=3 will be down at time 0, up at time 1 and 2,
+down at time 3, 4, 5 and so on.
+</p>
+
+<p>At time t+1, a citizen can choose to be on any available pole or
+river bank within 5 poles of  his location at time t or even to
+stay on his current pole (if available) or bank. For example from
+pole 5 you can reach any of the poles 1, 2, 3, 4, 5, 6, 7, 8, 9,
+10 or the left bank.</p>
+
+<b>Task</b><br>
+
+<p>
+Write a program that:
+<UL>
+<li>reads the number of
+data blocks from the text file RIV.IN (each block contains a
+complete set of data for the problem);
+<li>for each block
+<li>reads the number of poles and descriptions of their behaviour;
+<li>computes the first possible time the citizen can stand
+on the right bank, if it is reachable;
+<li>writes the result to the text file RIV.OUT.
+</UL>
+</p>
+
+<b>Input</b><br>
+
+<p>
+The first line of the input file RIV.IN contains the number of
+data blocks x, 1 &lt;= x &lt;= 5.  The following lines comprise
+the x blocks.  The  first block starts on the second line of
+the input file; each subsequent block starts directly after the
+previous one.
+</p>
+
+<p>The first line of each block contains an integer n,
+5 &lt; n &lt;= 1000, the number of poles.</p>
+
+<p>
+Each of the following n lines in the block contains two
+integers a, b separated by a single space,
+1 &lt;= a, b &lt;= 5. The integers in line i + 1 (in the block),
+1 &lt;= i &lt;= n, describe the behaviour of the pole i.
+</p>
+
+<b>Output</b><br>
+
+
+<p>For the k-th block, 1 &lt;= k &lt;= x, write to the k-th line
+of the text file RIV.OUT the first time the citizen can reach
+the right bank or the word NO, when such a crossing is impossible.
+</p>
+
+<b>Example</b><br>
+
+<p>
+For the text file RIV.IN:
+<pre>
+2
+10
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+10
+1 1
+1 1
+1 1
+1 1
+2 1
+1 1
+1 1
+1 1
+1 1
+1 1
+</pre>
+
+the correct solution is the text file RIV.OUT:
+
+<pre>
+NO
+4
+</pre>
+
+
+
+<!-- Tu tekst zadania -->
+
+<P>
+
+<hr>
+
+<font size="-1">
+<P align=left>
+[ &nbsp;
+<a href="../../index.htm">Strona główna</a>
+&nbsp; | &nbsp;
+<a href="../oi.htm">Archiwum zadań</a>
+&nbsp; ]
+</P>
+</font>
+
+</body>
+</html>
+
